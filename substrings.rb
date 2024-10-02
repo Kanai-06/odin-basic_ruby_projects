@@ -1,3 +1,6 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
 def substrings(string, dictionnary)
   dictionnary_occurences = Hash.new(0)
 

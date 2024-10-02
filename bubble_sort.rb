@@ -1,3 +1,6 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
 class Array
   def swap(index_a, index_b)
     q = self[index_a]

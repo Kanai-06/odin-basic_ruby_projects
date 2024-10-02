@@ -1,3 +1,6 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
 def stock_picker(prices)
   day_to_buy = 0
   day_to_sell = 0
